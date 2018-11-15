@@ -77,7 +77,10 @@
 		E2F7B562219D387A006D177D = {
 			isa = PBXGroup;
 			children = (
-				E2F7B56D219D387A006D177D /* AccelerometerDemo */,
+				E2F7B59F219D3B1E006D177D /* Template */,
+				E2F7B59E219D3B0B006D177D /* Model */,
+				E2F7B59D219D3B09006D177D /* View */,
+				E2F7B59C219D3B00006D177D /* Controller */,
 				E2F7B582219D387B006D177D /* AccelerometerDemoTests */,
 				E2F7B58D219D387B006D177D /* AccelerometerDemoUITests */,
 				E2F7B56C219D387A006D177D /* Products */,
@@ -92,19 +95,6 @@
 				E2F7B58A219D387B006D177D /* AccelerometerDemoUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E2F7B56D219D387A006D177D /* AccelerometerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				E2F7B56E219D387A006D177D /* AppDelegate.swift */,
-				E2F7B570219D387A006D177D /* ViewController.swift */,
-				E2F7B572219D387A006D177D /* Main.storyboard */,
-				E2F7B575219D387B006D177D /* Assets.xcassets */,
-				E2F7B577219D387B006D177D /* LaunchScreen.storyboard */,
-				E2F7B57A219D387B006D177D /* Info.plist */,
-			);
-			path = AccelerometerDemo;
 			sourceTree = "<group>";
 		};
 		E2F7B582219D387B006D177D /* AccelerometerDemoTests */ = {
@@ -123,6 +113,40 @@
 				E2F7B590219D387B006D177D /* Info.plist */,
 			);
 			path = AccelerometerDemoUITests;
+			sourceTree = "<group>";
+		};
+		E2F7B59C219D3B00006D177D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7B570219D387A006D177D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2F7B59D219D3B09006D177D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7B575219D387B006D177D /* Assets.xcassets */,
+				E2F7B572219D387A006D177D /* Main.storyboard */,
+				E2F7B577219D387B006D177D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2F7B59E219D3B0B006D177D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2F7B59F219D3B1E006D177D /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7B56E219D387A006D177D /* AppDelegate.swift */,
+				E2F7B57A219D387B006D177D /* Info.plist */,
+			);
+			path = Template;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JLFK698MRZ;
-				INFOPLIST_FILE = AccelerometerDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Template/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JLFK698MRZ;
-				INFOPLIST_FILE = AccelerometerDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Template/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
